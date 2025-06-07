@@ -1,4 +1,10 @@
-document.querySelector("form").addEventListener("submit", function (e) {
-  e.preventDefault();
-  alert("Message sent! (This is a static demo.)");
+
+// Smooth scroll for navigation
+document.querySelectorAll('nav a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
 });
