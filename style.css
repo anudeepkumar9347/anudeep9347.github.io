@@ -14,8 +14,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* Navbar */
 .navbar {
   background: #333;
   color: white;
@@ -46,8 +44,6 @@ a {
 .nav-links a:hover {
   color: #ff6f61;
 }
-
-/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -60,8 +56,6 @@ a {
   margin: 4px 0;
   transition: 0.4s;
 }
-
-/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
@@ -101,8 +95,6 @@ a {
 .btn:hover {
   background: #e5534b;
 }
-
-/* Sections */
 section {
   padding: 4rem 2rem;
   max-width: 900px;
@@ -113,8 +105,6 @@ h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-
-/* Skills */
 .skill {
   margin-bottom: 1.5rem;
   text-align: left;
@@ -131,20 +121,9 @@ h2 {
   height: 10px;
   border-radius: 5px;
 }
-.html {
-  width: 90%;
-  background: #e44d26;
-}
-.css {
-  width: 80%;
-  background: #264de4;
-}
-.js {
-  width: 75%;
-  background: #f0db4f;
-}
-
-/* Projects */
+.html { width: 90%; background: #e44d26; }
+.css { width: 80%; background: #264de4; }
+.js { width: 75%; background: #f0db4f; }
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -164,41 +143,23 @@ h2 {
   max-width: 100%;
   border-radius: 10px;
 }
-.project-card h3 {
-  margin: 1rem 0 0.5rem 0;
-}
-.project-card p {
-  font-size: 0.9rem;
-  color: #666;
-}
-.project-card .btn {
-  margin-top: 1rem;
-}
-
-/* Contact */
 form {
   max-width: 500px;
   margin: auto;
   text-align: left;
 }
-input,
-textarea {
+input, textarea {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 1rem;
-  resize: none;
-  font-family: inherit;
 }
-input:focus,
-textarea:focus {
+input:focus, textarea:focus {
   outline: none;
   border-color: #ff6f61;
 }
-
-/* Footer */
 footer {
   background: #222;
   color: #aaa;
@@ -207,8 +168,6 @@ footer {
   font-size: 0.9rem;
   margin-top: 4rem;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     position: fixed;
