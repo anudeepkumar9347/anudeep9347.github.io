@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.hero-content h3 {
+  color: #f0c000;
+  font-weight: 400;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hero-content h1 span {
+  color: #f0c000;
+}
+
+.hero-content .role {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn.yellow {
+  background-color: #f0c000;
+  color: black;
+}
+
+.btn.dark {
+  background-color: #111;
+  color: white;
+  border: 2px solid white;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 12px;
+}
